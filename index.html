@@ -8,7 +8,17 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-<style>
+  /* Our Story */
+  .story { border-top: 1px solid rgba(201,165,106,0.35); padding: 64px 24px; }
+  .story-inner { max-width: 680px; margin: 0 auto; }
+  .story h2 { font-family: var(--serif); font-weight: 400; font-size: clamp(2.2rem, 5vw, 3rem); text-align: center; line-height: 1.1; }
+  .story .lead { font-family: var(--serif); font-size: clamp(1.15rem, 3vw, 1.4rem); color: var(--gold); text-align: center; line-height: 1.45; margin-top: 12px; }
+  .story hr { width: 36px; border: 0; border-top: 1px solid var(--gold); margin: 28px auto 32px; }
+  .story p { color: var(--muted); font-size: 0.95rem; line-height: 1.9; margin-bottom: 1.3em; }
+  .story .signoff { margin-top: 36px; text-align: center; }
+  .story .signoff .name { font-family: var(--serif); font-size: 1.9rem; color: var(--gold); line-height: 1.2; }
+  .story .signoff .shop { font-size: 0.75rem; letter-spacing: 0.2em; color: var(--muted); }
+  <style>
   :root {
     --bg: #1a1a1c;
     --bg-deep: #141416;
@@ -134,7 +144,31 @@
   </div>
 </section>
 
-<section class="contact">
+<section class="story" id="story">
+  <div class="story-inner">
+    <h2>Our Story</h2>
+    <p class="lead">A love of fashion, a family tradition and a new chapter for Mode Boutique.</p>
+    <hr>
+
+    <p>Mode Boutique has been part of the local community since 2007, built on a love of ladies’ fashion and the personal touch that makes independent boutiques so special.</p>
+
+    <p>Fashion has been part of my life for as long as I can remember. I was just eight when I began growing up around my family’s fashion business, and as soon as I was old enough, I started working alongside my mum at 16. I’ve been part of Mode Boutique since 2007, so fashion has always been a big part of my life.</p>
+
+    <p>In September 2026, I took on the boutique from Carol and Neil, who spent 19 years building Mode into the business customers know and love today. As they begin their retirement, I’m proud to carry on what they’ve created while bringing my own ideas and love of fashion into this next chapter.</p>
+
+    <p>My aim is simple: to offer affordable, stylish and slightly different fashion, with carefully chosen pieces, few repeats and something to suit every occasion. From everyday easy wear to outfits for days and nights out, I want shopping at Mode to feel friendly, relaxed and enjoyable.</p>
+
+    <p>As a small independent boutique, every customer matters. Whether you know exactly what you’re looking for or would like a little help putting an outfit together, you’ll always be welcome.</p>
+
+    <p>Thank you for supporting Mode Boutique and being part of its story. I look forward to welcoming familiar faces and meeting new customers along the way.</p>
+
+    <div class="signoff">
+      <div class="name">Charlotte</div>
+      <div class="shop">MODE BOUTIQUE</div>
+    </div>
+  </div>
+</section>
+  <section class="contact">
   <div class="badge"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></div>
   <h2>CONTACT US</h2>
   <a href="mailto:info@modeboutique.co.uk">info@modeboutique.co.uk</a>
